@@ -1,0 +1,43 @@
+/* Change navbar background to yellow */
+.navbar {
+    background-color: #ffcc00 !important; /* Bright yellow */
+    display: flex;
+    justify-content: center; /* Center navbar items */
+    align-items: center;
+    width: 100%;
+}
+
+/* Center Navbar Brand */
+.navbar .navbar-brand {
+    color: #000000 !important; /* Black text for contrast */
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto; /* Center the brand */
+    text-align: center; /* Ensures text is centered */
+}
+
+/* Style the navigation links */
+.navbar .nav-link {
+    color: #000000 !important; /* Black text for better readability */
+    text-decoration: none !important; /* Remove underline */
+    margin: 0 10px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for navigation links */
+.navbar .nav-link:hover {
+    color: #ffffff !important; /* White text on hover */
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar .nav-link {
+        margin: 5px 0;
+        text-align: center;
+    }
+}
