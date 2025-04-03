@@ -1,6 +1,6 @@
 /* Change navbar background to yellow */
 .navbar {
-    background-color: #ffcc00 !important; /* Bright yellow */
+    background-color: #ffcc00 !important; 
     display: flex;
     justify-content: center; /* Center navbar items */
     align-items: center;

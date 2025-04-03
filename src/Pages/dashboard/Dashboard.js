@@ -21,16 +21,7 @@ const Dashboard = () =>{
             fetchuser();
         },[])
 
-        // const HandleDelete =async (userid) =>{
-        //           try {
-        //             const response = await fetch("http://localhost:8080/user/deletebyid/${userid}",{
-        //               method:"DELETE",
-        //             })
-                   
-        //           } catch (error) {
-        //             console.error("Error while deleting the User",error.message)
-        //           }
-        // }
+        
         const HandleDelete = async (userid) => {
           try {
               const response = await fetch(`http://localhost:8080/user/deletebyid/${userid}`, {
@@ -62,7 +53,7 @@ const Dashboard = () =>{
          <Container className="mt-5">
           <Row>
             <Col>
-            {/* <h1 className="test-center"> Users </h1> */}
+            
             <Table striped bordered hover responsive>
                 <thead>
                <tr>
@@ -82,7 +73,7 @@ const Dashboard = () =>{
       <td>{user.emailId}</td>
       <td>{user.address}</td>
       <td>
-        {/* <Button variant="outline-secondary" onClick={()=>HandleUpdate(user.id)}>Update</Button> */}
+        
         <Button variant="outline-secondary" onClick={() => HandleUpdate(user.id)}>Update</Button>
 
         {"  "}
