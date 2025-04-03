@@ -14,7 +14,7 @@ const PostUser = () => {
         emailId: "",
         address: ""
     });
-  const
+ 
     const [errors, setErrors] = useState({});
 
     const validate = () => {
