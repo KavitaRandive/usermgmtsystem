@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/KavitaRandive/usermgmtsystem/static/css/main.9697c81d.css",
-    "main.js": "/KavitaRandive/usermgmtsystem/static/js/main.73b2a4d8.js",
-    "static/js/453.5430e684.chunk.js": "/KavitaRandive/usermgmtsystem/static/js/453.5430e684.chunk.js",
-    "index.html": "/KavitaRandive/usermgmtsystem/index.html",
-    "main.9697c81d.css.map": "/KavitaRandive/usermgmtsystem/static/css/main.9697c81d.css.map",
-    "main.73b2a4d8.js.map": "/KavitaRandive/usermgmtsystem/static/js/main.73b2a4d8.js.map",
-    "453.5430e684.chunk.js.map": "/KavitaRandive/usermgmtsystem/static/js/453.5430e684.chunk.js.map"
+    "main.css": "/usermgmtsystem/static/css/main.9697c81d.css",
+    "main.js": "/usermgmtsystem/static/js/main.78c168b0.js",
+    "static/js/453.5430e684.chunk.js": "/usermgmtsystem/static/js/453.5430e684.chunk.js",
+    "index.html": "/usermgmtsystem/index.html",
+    "main.9697c81d.css.map": "/usermgmtsystem/static/css/main.9697c81d.css.map",
+    "main.78c168b0.js.map": "/usermgmtsystem/static/js/main.78c168b0.js.map",
+    "453.5430e684.chunk.js.map": "/usermgmtsystem/static/js/453.5430e684.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9697c81d.css",
-    "static/js/main.73b2a4d8.js"
+    "static/js/main.78c168b0.js"
   ]
 }
